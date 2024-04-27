@@ -3,33 +3,22 @@ body {
 	background-image: url(../images/background.png);
 	background-size: 1600px;
 }
+
 .mia {
 	transform: translate(445px, 130px);
-	display: inline-block;
-	animation-name: mymove;
-	animation-duration: 5s;
-	
-
-	
+	width: 300px;
+	height: 100px;
+	position: relative;
+	animation: mymove 0.2s infinite  alternate-reverse;
 }
 .vincent {
 	display: inline-block;
-	transform: translate(445px, 110px);
+	transform: translate(850px, 0px);
+	animation: mymove 0.2s infinite  alternate-reverse;
 }
+
 
 @keyframes mymove {
-  from {left: 0px;}
-  to {left: 200px;}
-}
-.mia1 {
-	
-	display: inline-block;
-	animation-name: mymove;
-	animation-duration: 5s;
-	
-
-
-}
-.vincent1 {
-	display: inline-block;
+  from {rotate: 0deg}
+  to {rotate: 2deg}
 }
