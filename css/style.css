@@ -1,0 +1,35 @@
+body {
+	
+	background-image: url(../images/background.png);
+	background-size: 1600px;
+}
+.mia {
+	transform: translate(445px, 130px);
+	display: inline-block;
+	animation-name: mymove;
+	animation-duration: 5s;
+	
+
+	
+}
+.vincent {
+	display: inline-block;
+	transform: translate(445px, 110px);
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+}
+.mia1 {
+	
+	display: inline-block;
+	animation-name: mymove;
+	animation-duration: 5s;
+	
+
+
+}
+.vincent1 {
+	display: inline-block;
+}
